@@ -25,9 +25,15 @@ header > .interface{
 }
 
 header a{
-    color: #fff;
+    color: #5c5c5c;
     text-decoration: none;
-    
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #FFF;
+    transform: scale(1.25);
 }
 
 header nav ul{
@@ -47,4 +53,9 @@ header .btn-contato button{
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    background-color: #FF1493;
+    box-shadow: 0px 0px 8px #FF69B4;
 }
