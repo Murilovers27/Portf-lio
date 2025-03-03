@@ -1,0 +1,105 @@
+/* reset da pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico", cursive;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF69B4;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    background-color: #FF1493;
+    box-shadow: 0px 0px 8px #FF69B4;
+    transform:scale(1.05);
+}
+
+/*estrutura da pagina */
+body{
+    background-image: url("imagens/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 30px;
+}
+
+.flex{
+    display: flex;
+}
+
+/*estilazação do cabeçalho */
+.interface{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    padding:40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #FFF;
+    transform: scale(1.25);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+/*estilazação do conteudo */
+
+section.topo-site{
+    padding 40px 4%;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1{ 
+    color: #FFF;
+    font-size: 42px;
+    lines-height: 40px;
+}
+
+.topo-site h1 span{
+    color: purple;
+    font-size: 84px;
+}
+
+.topo-site txt-topo{
+    color: #fff;
+    margin: 40px 0;
+}
+
